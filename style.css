@@ -1,0 +1,141 @@
+body{
+    font-family:'Cairo', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    font-style: initial;
+    font-weight: 1000;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.half img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.name-high{
+    color: goldenrod;
+}
+.link-button{
+    text-decoration: none;
+    background-color: goldenrod;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: black;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.area{
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 10px;
+    height: 50%;
+    background color: white;
+    
+}
+.work{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    text-align: center;
+    text-decoration: solid;
+}
+.experiences{
+    width: 25%;
+    height: 80%;
+    padding-bottom: 80px;
+    background-color: white;
+    margin-left: 5%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    float: left;
+    text-align: center;
+    text-decoration: solid;
+    font-family: cursive;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+}
+.experiences img{
+    width: 50%
+}
+#mobile{
+    float: left;
+
+}
+#dslr{
+    float: left;
+}
+#edit{
+    float: left;
+}
+.enquiry{
+    width: 100%;
+    height: 280px;
+    background-image: url(images/end.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.enquiry p{
+    font-size: 50px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+    height: 30px
+}
+.link{
+    text-decoration: none;
+    background-color: lightskyblue;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: black;
+
+}
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: calibri;
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+    background-color: #e6e3e3;
+}
+.social{
+    display: flex;
+}
